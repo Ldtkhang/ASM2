@@ -111,7 +111,5 @@
           <a href="?page=productupdate.php&id=8" class="glyphicon glyphicon-edit"></a> |
           <a href="?page=productdelete.php&id=8" onclick="return confirm('Are you sure?');" class="glyphicon glyphicon-remove"></a>
       </tr>
-    <?php
-    ?>
-  </tbody>
+      </tbody>
 </table>
