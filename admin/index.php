@@ -11,10 +11,10 @@ $order = "order.php";
 $user = "user.php";
 
 ////////////////////// Connection ////////////////////
-$host = "co28d739i4m2sb7j.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$username="vzgy1jbgl1f3bzfc";
-$password="mnqcfryemr6j35pl";
-$db= "ulavhu7uv2kwvmls";
+$host = "z5zm8hebixwywy9d.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$username="tvdg82gjvsolpgib";
+$password="r2bxbt5hwwfdv3gw";
+$db= "eqy8f5w4zth4rwz9";
 $conn = mysqli_connect($host, $username, $password, $db) or die("Can not connect database " . mysqli_connect_error());
 
 include('theme.php');
