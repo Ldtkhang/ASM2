@@ -1,7 +1,7 @@
 <?php
 session_start();
-$urladmin ="https://khangtoy-7e1f5470f3ad.herokuapp.com/admin/";
-$urluser ="https://khangtoy-7e1f5470f3ad.herokuapp.com/";
+$urladmin ="https://khangtoy-2458c68992c0.herokuapp.com/admin/";
+$urluser ="https://khangtoy-2458c68992c0.herokuapp.com/";
 
 $home = "home.php";
 $register = "register.php";
