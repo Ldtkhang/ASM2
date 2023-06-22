@@ -1,7 +1,7 @@
 <?php
 session_start();
-$urladmin ="https://khangtoy-52677512fbc2.herokuapp.com/admin/";
-$urluser ="https://khangtoy-52677512fbc2.herokuapp.com/";
+// $urladmin ="https://khangtoy-52677512fbc2.herokuapp.com/admin/";
+// $urluser ="https://khangtoy-52677512fbc2.herokuapp.com/";
 
 $home = "home.php";
 $register = "register.php";
@@ -10,9 +10,9 @@ $order = "order.php";
 $logout = "logout.php";
 
 //////////////////////////////////////////////////// Connection ////////////////////////////////////////////////
-$host = "u6354r3es4optspf.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$username="seypaf5q0fnfmgps";
-$password="ekh4orrzjl47dhuc";
-$db= "yzrlq4yb0y0lthl4";
+$host = "co28d739i4m2sb7j.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$username="vzgy1jbgl1f3bzfc";
+$password="mnqcfryemr6j35pl";
+$db= "ulavhu7uv2kwvmls";
 $conn = mysqli_connect($host,$username,$password,$db) or die("Can not connect database".mysqli_connect_error());
 include('theme.php');
